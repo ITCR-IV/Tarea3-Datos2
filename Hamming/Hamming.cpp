@@ -1,4 +1,6 @@
+#include "List.h"
 
-int[] hamming_code_11bit(int){
-
+List<int> hamming_code_11bit(int)
+{
+    return {0};
 };
