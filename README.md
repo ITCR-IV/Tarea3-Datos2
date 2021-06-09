@@ -5,3 +5,5 @@ Tarea Extraclase #3 para el curso algoritmos y estructuras de datos 2. Este repo
 - Hamming Code
 - Longitudinal Redundancy Check
 - Cyclic  Redundancy Check
+
+Para cualquier uso de bit de paridad se asume una paridad par.

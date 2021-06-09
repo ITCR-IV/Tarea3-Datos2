@@ -6,7 +6,7 @@ uint hamming_code_16bit(List<uint> bitList)
 {
     if (bitList.length() != 16)
     {
-        throw std::invalid_argument("Length of list of bits must be exactly 16 bits");
+        throw std::invalid_argument("Length of list of bits for Hamming Code check must be exactly 16 bits");
     }
 
     uint errorPos = 0;
