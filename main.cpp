@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Hamming/Hamming.cpp"
 #include "LRC/LRC.cpp"
+#include "CRC/CRC.cpp"
 
 int main()
 {
@@ -25,7 +26,17 @@ int main()
     l1 += {7, 14, 21};
     l1.print();
 
-    //cheksum test
+    //Cyclic Redundancy Check test
+    int data_, key_;
+    std::cout << "Ingrese la informacion (bits): ";
+    std::cin >> data_;
 
-    return 0
+    std::cout << "Ingrese los K bits del dividendo: ";
+    std::cin >> data_;
+
+    std::string data = std::to_string(data_);
+    std::string key = std::to_string(key_);
+
+    encodeData(data, key);
+    return 0;
 }
