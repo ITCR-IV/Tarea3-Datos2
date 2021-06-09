@@ -4,4 +4,4 @@ Tarea Extraclase #3 para el curso algoritmos y estructuras de datos 2. Este repo
 
 - Hamming Code
 - Longitudinal Redundancy Check
-- Check Sum
+- Cyclic  Redundancy Check
